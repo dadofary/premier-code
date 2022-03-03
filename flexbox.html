@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Flexbox</title>
+		<link rel="stylesheet" href="flexbox.css">
+	</head>
+	<body>
+		<div id="conteneur">
+			<div class="element"></div>
+			<div class="element"></div>
+			<div class="element"></div>
+		</div>
+
+		<p>
+				<label for="nom">Nom: </label>
+				<input type="text" name="pseudo" id="nom" placeholder="Entrez votre nom" size="30" maxlength="10" />
+				<br><br>
+				<label for="prenom">Prénom: </label>
+				<input type="text" name="pseudo" id="prenom" placeholder="Entrez votre Prénom" size="30" maxlength="10" />
+				<br><br>
+				<label for="datenaissance">Date de Naissance </label>
+				<input type="date" id="datenaissance" name="datenaissance"/>
+				<br><br>
+				<label for="mdp">Mot de Passe: </label>
+				<input type="password" name="mdp" id="mdp" placeholder="Entrez le mot de passe"/>
+				<br><br>
+				Civilité: <br>
+				<input type="checkbox" name="homme" id="homme"/>
+				<label for="homme">HOMME</label> <br>
+				<input type="checkbox" name="femme" id="femme"/>
+				<label for="femme">FEMME</label> 
+				<br><br>
+				 Veuillez indiquer la formation que vous voulez suivre :<br/>
+			 	<input type="radio" name="formation" value="dev" id="dev"/> 
+			 	<label for="dev">Développement Web Mobile</label><br />
+				<input type="radio" name="formation" value="geniecivil" id="geniecivil" />
+				<label for="geniecivil>Génie Civil">Génie Logiciel</label><br/>
+				<input type="radio" name="formation" value="devpersonnel" id="devpersonnel" /> 
+				<label for="devpersonnel">Développement Personnel</label><br />
+				<input type="radio" name="formation" value="design" id="design" /> 
+				<label for="design">Design</label>
+				<br><br>
+				<label for="mail">Adresse Mail</label>
+				<input type="email" name="mail" id="mail"/>
+				<br><br>
+				<label for="motivation">Vos motivations</label>
+				<textarea  name="mtv" id="mtv"></textarea>
+				<br><br>
+				<label for="niveau">Votre niveau d'études</label><br> <br>
+				<select name="niveau" id="niveau">
+					<option value=""></option>
+					<option value="CFEE">CFEE</option>
+					<option value="BFEM">BFEM</option>
+					<option value="BAC">BAC</option>
+					<option value="BTS">BTS</option>
+					<option value="LICENCE">LICENCE</option>
+					<option value="MASTER">MASTER</option>
+					<option value="MAITRISE">MAITRISE</option>
+				</select>
+				<br><br>
+				<h2>Les langues que vous maitrisez</h2>
+				<label for="anglais">ANGLAIS</label>
+				<input type="range" id="anglais" name="anglais" /><br><br>
+				<label for="francais">FRANCAIS</label>
+				<input type="range" id="francais" name="francais"></input>
+				<br><br>
+				<input type="submit" value="ENVOYEZ" />
+				
+   				</p>
+	</body>
+</html>
